@@ -4,8 +4,41 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8a3f18671d72a41fc6eebb3e91db17ac",
+    "content-hash": "65bae5dc8e0689783236273ef314c28a",
     "packages": [
+        {
+            "name": "chinonsoike/noxxphp",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ChinonsoIke/NoxxPHPCore.git",
+                "reference": "d1f3cfb4d158d37cff04bcd0955f460ad9369aba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ChinonsoIke/NoxxPHPCore/zipball/d1f3cfb4d158d37cff04bcd0955f460ad9369aba",
+                "reference": "d1f3cfb4d158d37cff04bcd0955f460ad9369aba",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "NoxxPHP\\Core\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Chinonso Ikewelugo",
+                    "email": "chinonsoikewelugo@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/ChinonsoIke/NoxxPHPCore/issues",
+                "source": "https://github.com/ChinonsoIke/NoxxPHPCore/tree/v1.0.3"
+            },
+            "time": "2022-03-10T11:43:22+00:00"
+        },
         {
             "name": "graham-campbell/result-type",
             "version": "v1.0.4",

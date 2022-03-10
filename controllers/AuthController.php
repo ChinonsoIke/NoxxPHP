@@ -2,11 +2,11 @@
 
 namespace App\Controllers;
 
-use App\Core\Application;
-use App\Core\Controller;
-use App\Core\Middlewares\AuthMiddleware;
-use App\Core\Request;
-use App\Core\Response;
+use NoxxPHP\Core\Application;
+use NoxxPHP\Core\Controller;
+use NoxxPHP\Core\Middlewares\AuthMiddleware;
+use NoxxPHP\Core\Request;
+use NoxxPHP\Core\Response;
 use App\Models\LoginModel;
 use App\Models\User;
 

@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use App\Core\Model;
+use NoxxPHP\Core\Model;
 
 class ContactForm extends Model
 {

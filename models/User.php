@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use App\Core\DbModel;
+use NoxxPHP\Core\DbModel;
 
 class User extends DbModel
 {   

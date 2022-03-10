@@ -1,4 +1,4 @@
-<?php use App\Core\Application; ?>
+<?php use NoxxPHP\Core\Application; ?>
 
 <!doctype html>
 <html lang="en">

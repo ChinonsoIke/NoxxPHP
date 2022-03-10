@@ -1,6 +1,6 @@
 <h1>Register</h1>
 
-<?php $form= App\Core\Forms\Form::begin('', "POST") ?>
+<?php $form= NoxxPHP\Core\Forms\Form::begin('', "POST") ?>
     <div class="row">
         <div class="col">
             <?php echo $form->field($model, 'firstname') ?>
@@ -14,4 +14,4 @@
     <?php echo $form->field($model, 'passwordConfirm')->passwordType() ?>
 
     <button type="submit" class="btn btn-primary">Submit</button>
-<?php App\Core\Forms\Form::end() ?>
+<?php NoxxPHP\Core\Forms\Form::end() ?>

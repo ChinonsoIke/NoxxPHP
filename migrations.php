@@ -3,7 +3,7 @@
 require_once __DIR__."/vendor/autoload.php";
 
 use App\Controllers\AuthController;
-use App\Core\Application;
+use NoxxPHP\Core\Application;
 use App\Controllers\SiteController;
 
 // load phpdotenv package to make env configurations available

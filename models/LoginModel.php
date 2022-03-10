@@ -2,8 +2,8 @@
 
 namespace App\Models;
 
-use App\Core\Application;
-use App\Core\Model;
+use NoxxPHP\Core\Application;
+use NoxxPHP\Core\Model;
 
 class LoginModel extends Model
 {
